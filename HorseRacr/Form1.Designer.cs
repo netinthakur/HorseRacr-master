@@ -72,7 +72,7 @@
             // track
             // 
             this.track.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.track.Location = new System.Drawing.Point(-11, 236);
+            this.track.Location = new System.Drawing.Point(0, 0);
             this.track.Name = "track";
             this.track.Size = new System.Drawing.Size(673, 235);
             this.track.TabIndex = 0;
@@ -150,10 +150,9 @@
             this.lblHarpreet.ForeColor = System.Drawing.Color.White;
             this.lblHarpreet.Location = new System.Drawing.Point(365, 291);
             this.lblHarpreet.Name = "lblHarpreet";
-            this.lblHarpreet.Size = new System.Drawing.Size(142, 19);
+            this.lblHarpreet.Size = new System.Drawing.Size(168, 19);
             this.lblHarpreet.TabIndex = 8;
-            this.lblHarpreet.Text = "netin didn\'t fix any Bet";
-            this.lblHarpreet.Click += new System.EventHandler(this.Lblnetin_Click);
+            this.lblHarpreet.Text = "Harpreet didn\'t fix any Bet";
             // 
             // lblJoban
             // 
@@ -162,22 +161,21 @@
             this.lblJoban.ForeColor = System.Drawing.Color.White;
             this.lblJoban.Location = new System.Drawing.Point(365, 327);
             this.lblJoban.Name = "lblJoban";
-            this.lblJoban.Size = new System.Drawing.Size(142, 19);
+            this.lblJoban.Size = new System.Drawing.Size(150, 19);
             this.lblJoban.TabIndex = 9;
-            this.lblJoban.Text = "sukh didn\'t fix any Bet";
-            this.lblJoban.Click += new System.EventHandler(this.lblsukh_Click);
+            this.lblJoban.Text = "Joban didn\'t fix any Bet";
+            this.lblJoban.Click += new System.EventHandler(this.lblJoban_Click);
             // 
             // lblHappy
             // 
             this.lblHappy.AutoSize = true;
             this.lblHappy.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHappy.ForeColor = System.Drawing.Color.White;
-            this.lblHappy.Location = new System.Drawing.Point(365, 364);
+            this.lblHappy.Location = new System.Drawing.Point(365, 360);
             this.lblHappy.Name = "lblHappy";
-            this.lblHappy.Size = new System.Drawing.Size(164, 19);
+            this.lblHappy.Size = new System.Drawing.Size(155, 19);
             this.lblHappy.TabIndex = 10;
-            this.lblHappy.Text = "sandeep didn\'t fix any Bet";
-            this.lblHappy.Click += new System.EventHandler(this.Lblsandeep_Click);
+            this.lblHappy.Text = "Happy didn\'t fix any Bet";
             // 
             // chkHarpreet
             // 
@@ -189,9 +187,9 @@
             this.chkHarpreet.ForeColor = System.Drawing.Color.Black;
             this.chkHarpreet.Location = new System.Drawing.Point(7, 299);
             this.chkHarpreet.Name = "chkHarpreet";
-            this.chkHarpreet.Size = new System.Drawing.Size(141, 23);
+            this.chkHarpreet.Size = new System.Drawing.Size(167, 23);
             this.chkHarpreet.TabIndex = 12;
-            this.chkHarpreet.Text = "netin has 50 Dollar";
+            this.chkHarpreet.Text = "Harpreet has 50 Dollar";
             this.chkHarpreet.UseVisualStyleBackColor = false;
             this.chkHarpreet.CheckedChanged += new System.EventHandler(this.chkHarpreet_CheckedChanged);
             // 
@@ -203,9 +201,9 @@
             this.chkJoban.ForeColor = System.Drawing.Color.Black;
             this.chkJoban.Location = new System.Drawing.Point(7, 340);
             this.chkJoban.Name = "chkJoban";
-            this.chkJoban.Size = new System.Drawing.Size(141, 23);
+            this.chkJoban.Size = new System.Drawing.Size(149, 23);
             this.chkJoban.TabIndex = 13;
-            this.chkJoban.Text = "sukh has 50 Dollar";
+            this.chkJoban.Text = "Joban has 50 Dollar";
             this.chkJoban.UseVisualStyleBackColor = false;
             this.chkJoban.CheckedChanged += new System.EventHandler(this.chkJoban_CheckedChanged);
             // 
@@ -217,9 +215,9 @@
             this.chkHappy.ForeColor = System.Drawing.Color.Black;
             this.chkHappy.Location = new System.Drawing.Point(7, 379);
             this.chkHappy.Name = "chkHappy";
-            this.chkHappy.Size = new System.Drawing.Size(163, 23);
+            this.chkHappy.Size = new System.Drawing.Size(154, 23);
             this.chkHappy.TabIndex = 14;
-            this.chkHappy.Text = "sandeep has 50 Dollar";
+            this.chkHappy.Text = "Happy has 50 Dollar";
             this.chkHappy.UseVisualStyleBackColor = false;
             this.chkHappy.CheckedChanged += new System.EventHandler(this.chkHappy_CheckedChanged);
             // 
@@ -230,9 +228,9 @@
             this.lblPlayer.ForeColor = System.Drawing.Color.White;
             this.lblPlayer.Location = new System.Drawing.Point(12, 415);
             this.lblPlayer.Name = "lblPlayer";
-            this.lblPlayer.Size = new System.Drawing.Size(51, 24);
+            this.lblPlayer.Size = new System.Drawing.Size(83, 24);
             this.lblPlayer.TabIndex = 15;
-            this.lblPlayer.Text = "netin";
+            this.lblPlayer.Text = "Harpreet";
             // 
             // label2
             // 

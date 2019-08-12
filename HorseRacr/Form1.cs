@@ -180,7 +180,7 @@ namespace HorseRacr
 
         }
 
-        private void lblsukh_Click(object sender, EventArgs e)
+        private void lblJoban_Click(object sender, EventArgs e)
         {
 
         }
@@ -188,16 +188,13 @@ namespace HorseRacr
         private void betAmount_ValueChanged(object sender, EventArgs e)
         {
             //verify the bet amount means if the player has not enough money and set the bet amount more then that then it will genrate an error message
-            if (lblPlayer.Text.Equals("netin") && betAmount.Value < 1)
-            {
+            if (lblPlayer.Text.Equals("Harpreet") && betAmount.Value<1) {
                 MessageBox.Show("You didn't have Enough Balance");
             }
-            if (lblJoban.Text.Equals("sukh") && betAmount.Value < 1)
-            {
+            if (lblJoban.Text.Equals("Joban") && betAmount.Value <1) {
                 MessageBox.Show("You didn't have Enough Balance");
             }
-            if (lblHappy.Text.Equals("sandeep") && betAmount.Value < 1)
-            {
+            if (lblHappy.Text.Equals("Happy") && betAmount.Value<1) {
                 MessageBox.Show("You didn't have Enough Balance");
             }
         }
@@ -265,17 +262,6 @@ namespace HorseRacr
             }
             
         }
-
-        private void Lblnetin_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Lblsandeep_Click(object sender, EventArgs e)
-        {
-
-        }
-
         public void Bet() {
             MessageBox.Show("OK working");
         }
